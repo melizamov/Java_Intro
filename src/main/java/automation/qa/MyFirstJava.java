@@ -21,8 +21,8 @@ public class MyFirstJava {
         //integer variable that will store the age entered from the user
         int userAge = scanner.nextInt();
 
-       /* System.out.println("Your name is: " + firstName +
-                "\nYour age is: " + userAge); */
+       System.out.println("Your name is: " + firstName +
+                "\nYour age is: " + userAge);
         if (userAge >= 18){
             System.out.println(firstName + " can drink alcohol legally!!!");
         }
