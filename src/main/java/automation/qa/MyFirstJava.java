@@ -23,6 +23,7 @@ public class MyFirstJava {
 
        System.out.println("Your name is: " + firstName +
                 "\nYour age is: " + userAge);
+
         if (userAge >= 18){
             System.out.println(firstName + " can drink alcohol legally!!!");
         }
